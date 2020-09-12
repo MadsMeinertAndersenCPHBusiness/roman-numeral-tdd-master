@@ -1,9 +1,9 @@
 # Reflections
 ## Shooting
- *The woman missed her shot
- *The shot didn't hit a vital organ
- *The man was wearing a bulletproof vest
- *The magazin was empty
+ 1. The woman missed her shot
+ 2. The shot didn't hit a vital organ
+ 3. The man was wearing a bulletproof vest
+ 4. The magazin was empty
  
  ## Alien
  *Pick up the toothpaste with your left hand

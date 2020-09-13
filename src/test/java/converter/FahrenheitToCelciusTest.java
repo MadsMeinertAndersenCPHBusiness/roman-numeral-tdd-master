@@ -1,22 +1,22 @@
 package converter;
 
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class NumberToRomanNumeralTest {
+public class FahrenheitToCelciusTest {
 
     @Test
     public void mustBeAbleToCreateConverter() {
         // Arrange
 
         // Act
-        NumberToRomanNumeralConverter test = new NumberToRomanNumeralConverter();
+        FahrenheitToCelcius test = new FahrenheitToCelcius();
+
         // Assert
-        assertEquals("DCCLXXXIX", test.convert(789));
+        assertEquals(30.0, test.convert(86.0));
 
     }
 }

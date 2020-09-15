@@ -18,7 +18,7 @@ public class NumberToRomanNumeralTest {
     }
 
     @Test
-    public void testThirtyNineMustBeEqualXXXIX() {
+    public void testThirtyNineMustEqualXXXIX() {
         // Arrange
         // Act
         // Assert
@@ -42,7 +42,7 @@ public class NumberToRomanNumeralTest {
 
     }
     @Test
-    public void testTwThousandFourHundredAndTwentyOneMustEqual() {
+    public void testTwThousandFourHundredAndTwentyOneMustEqualMMCDXXI() {
         // Arrange
         // Act
         // Assert

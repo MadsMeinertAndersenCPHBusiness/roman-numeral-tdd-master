@@ -16,7 +16,7 @@ public class FahrenheitToCelciusTest {
         FahrenheitToCelcius test = new FahrenheitToCelcius();
 
         // Assert
-        assertEquals(30.0, test.convert(86.0));
+        assertEquals(30.0, test.convert(86.0), 0.1);
 
     }
 }
